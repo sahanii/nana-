@@ -1,0 +1,31 @@
+body {
+    background-color: #1b1b1b;
+}
+@font-face {
+    font-family: 'gameofsquids';
+    src: url(fonts/Game\ Of\ Squids.otf) format('truetype'); 
+}
+@font-face {
+    font-family: 'gantari';
+    src: url(fonts/Gantari-SemiBold.otf);
+}
+h1 {
+    color: #E83E7D;
+    font-family: 'gameofsquids', sans-serif;
+    text-align: center;
+    font-size: 100px;
+}
+
+.description {
+    color: #ffffff;
+    font-family: 'gantari', sans-serif;
+    background-color: #095346;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    font-size: 20px;
+   
+}
+
